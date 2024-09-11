@@ -22,7 +22,7 @@
 .navbar nav ul li {
     margin: 0 15px;
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 .navbar nav ul li a {
