@@ -36,6 +36,13 @@ strong{
     margin-top: 8px;
 }
 
+small{
+    position: absolute;
+    top: 100%;
+    font-size: x-small;
+    color: #2856FF;
+}
+
 .item{
     display: flex;
 }
@@ -55,8 +62,8 @@ hr {
     background-color: #eeeeee;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: -30px;
     border: 1px solid #ccc;
+    margin-bottom: -10%;
 }
 
 #snum, #name{
@@ -65,14 +72,21 @@ hr {
 } 
 
 #dnum{
-    width: 130%;
+    width: 17%;
     height: 40px;
+    position: absolute;
+    top: 103.5%;
+    left: 49.5%;
 } 
+
+#dtext{
+    position: absolute;
+    top: 103%;
+}
 
 #pnum{
     width: 31%;
-    height: 40px;
-    margin-bottom: 15px;
+    height: 40px;  
 }
 
 #moap{
