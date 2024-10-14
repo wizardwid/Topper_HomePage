@@ -1,25 +1,10 @@
-/*@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-.inter-main {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-}
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
 body {
     overflow: scroll; /* 스크롤 기능을 유지 */
     background-color: #f5f5f5;
     text-overflow: ellipsis;
 }
-  
-/* 포커스 시 테두리 및 그림자 색상 변경 */
-input[type="text"]:focus, textarea:focus {
-    border-color: #f5f5f5 !important;
-    outline: none; /* 기본 아웃라인 제거 */
-}
-
 ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera에서 스크롤바 숨기기 */
 }
@@ -87,16 +72,16 @@ hr {
 } 
 
 #dnum{
-    width: 17%;
+    width: 13.5%;
     height: 40px;
     position: absolute;
-    top: 103.5%;
+    top: 63%;
     left: 49.5%;
 } 
 
 #dtext{
     position: absolute;
-    top: 103%;
+    top: 63%;
 }
 
 #pnum{
@@ -136,7 +121,7 @@ input[type='radio']:checked {
 button{
     cursor: pointer;
     position: relative;
-    left: 60%;
+    left: 58%;
     width: 200px;
     height: 45px;
     border-radius: 5px;
