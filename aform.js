@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const dormitoryInput = document.getElementById('room-num');
     const dormiRadioButtons = document.querySelectorAll('input[name="dormi"]');
-    
-    // 기숙사 여부 선택 시 호실 입력란 표시 여부
+  
     dormiRadioButtons.forEach(function(radio) {
         radio.addEventListener('change', function() {
             if (this.value === 'dormitory') {
@@ -12,14 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-    
-    // 폼 제출 시 모달을 띄우는 스크립트
-    document.getElementById("applicationForm").addEventListener("submit", function(event) {
-        // 기본 제출 동작 막기
-        event.preventDefault();
-        
-        // 서버로 제출하는 대신 모달 띄우기
-        var myModal = new bootstrap.Modal(document.getElementById('myModal'));
-        myModal.show();
-    });
-});
+  });
+  
+  function showModal(event) {
+      event.preventDefault(); // 기본 제출 방지
+      $('#submissionModal').modal('show'); // 모달 표시
+    }
