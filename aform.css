@@ -1,10 +1,25 @@
-@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+/*@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-main {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
 
 body {
     overflow: scroll; /* 스크롤 기능을 유지 */
     background-color: #f5f5f5;
     text-overflow: ellipsis;
 }
+  
+/* 포커스 시 테두리 및 그림자 색상 변경 */
+input[type="text"]:focus, textarea:focus {
+    border-color: #f5f5f5 !important;
+    outline: none; /* 기본 아웃라인 제거 */
+}
+
 ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera에서 스크롤바 숨기기 */
 }
