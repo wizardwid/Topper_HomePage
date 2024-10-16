@@ -12,12 +12,14 @@
     width: 160%;
     height: 470px;
     border-radius: 3%;
+    border: none;
 }
 
 .modal-header{
     position: relative;
     top: -3%;
     left: -3%;
+    border: none;
 }
 
 .modal-body{
@@ -30,6 +32,7 @@
     top: 70%;
     left: -16%;
     text-align: center;
+    border: none;
 }
 
 h3{
